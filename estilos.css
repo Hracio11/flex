@@ -1,8 +1,26 @@
 .contenedor{
     display: flex;
     justify-content: space-around;
+    align-items: flex-start;
 }
 
 .columna{
     background-color: brown;
+    width: 100px;
+    color: rgb(230, 180, 18);
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: -5px 5px rgb(0, 109, 143);
+}
+.columna:nth-child(1){
+    height: 300px;
+}
+.columna:nth-child(2){
+    height: 500px;
+}
+.columna:nth-child(3){
+    height: 100px;
+}
+.columna:nth-child(4){
+    height: 400px;
 }
