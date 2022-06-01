@@ -1,7 +1,7 @@
 .contenedor{
     display: flex;
     justify-content: space-around;
-    align-items: flex-start;
+    align-items: flex-end;
 }
 
 .columna{
@@ -23,4 +23,13 @@
 }
 .columna:nth-child(4){
     height: 400px;
+}
+.columna:nth-child(even){
+    background-color: rgba(48, 48, 156, 0.644);
+    color: rgb(192, 231, 18);
+   
+}
+.columna:nth-child(odd){
+    background-color: rgb(192, 231, 18);
+    color: rgb(0, 109, 143);
 }
