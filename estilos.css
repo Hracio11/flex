@@ -1,4 +1,7 @@
-div {
-    background-color: aquamarine;
-    text-align: center;
+.contenedor{
+    display: flex;
+}
+
+.columna{
+    background-color: brown;
 }
